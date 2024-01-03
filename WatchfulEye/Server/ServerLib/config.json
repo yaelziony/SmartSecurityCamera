@@ -1,0 +1,19 @@
+{
+    "backend_ip": "localhost",
+    "backend_port": "50051",
+    "backend_queue_size": 5,
+    "windows_db_path":"C:\\projectSources\\sqlite\\db\\watchfulEye.db",
+    "linux_db_path":"../../../../../../projectSources/sqlite/db/watchfulEye.db",
+    "windows_yolo_path":"C:\\projectSources\\yolov5s.onnx",
+    "linux_yolo_path":"../../../../../../projectSources/yolov5s.onnx",
+    "windows_detections_path":"C:\\projectSources\\classes.txt",
+    "linux_detections_path":"../../../../../../projectSources/classes.txt",
+    "item_to_detect":"car",
+    "rows":25200,
+    "cx":0,
+    "cy":1,
+    "w":2,
+    "h":3,
+    "number_for_aligns":0.5,
+    "jump_to_the_next_row":85
+}

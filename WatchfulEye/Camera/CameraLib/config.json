@@ -1,0 +1,8 @@
+{
+  "camera_ip": "localhost",
+  "camera_port": "50051",
+  "camera_threshold": 0.007,
+  "camera_diff_pixels": 15,
+  "windows_video_path": "C:\\projectSources\\vid_Trim_Trim.mp4",
+  "linux_video_path": "../../../../../../projectSources/vid_Trim_Trim.mp4"
+}

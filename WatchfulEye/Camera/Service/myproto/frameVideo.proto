@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package framevideoPackage;
+
+service FrameVideoService{
+	rpc getFrame(frame) returns (frameResponse) {}
+}
+
+message frame {
+  string timestamp       = 1;
+  bytes  imagedata       = 2;
+  int32  width           = 3;
+  int32  height          = 4;
+  int32  channels        = 5;
+}
+
+message frameResponse {
+  bool   success = 1;
+  string message = 2;
+}

@@ -1,0 +1,13 @@
+/.vs
+/WatchfulEye/.vs/WatchfulEye
+/WatchfulEye/WatchfulEye/x64/Debug
+*.user
+*.jpg
+/WatchfulEye/x64/Debug
+WatchfulEye/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7
+WatchfulEye/WatchfulEyeTest/x64/Debug/
+WatchfulEye/CMake
+WatchfulEye/build
+
+
+

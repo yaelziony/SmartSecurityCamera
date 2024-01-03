@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+	<class>MainWindow</class>
+	<widget class="QMainWindow" name="MainWindow">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>800</width>
+				<height>600</height>
+			</rect>
+		</property>
+		<property name="windowTitle">
+			<string>MainWindow</string>
+		</property>
+		<widget class="QWidget" name="centralwidget">
+			<widget class="QLabel" name="label_background">
+				<property name="geometry">
+					<rect>
+						<x>0</x>
+						<y>0</y>
+						<width>801</width>
+						<height>581</height>
+					</rect>
+				</property>
+				<property name="text">
+					<string/>
+				</property>
+			</widget>
+			<widget class="QLabel" name="label_name">
+				<property name="geometry">
+					<rect>
+						<x>510</x>
+						<y>20</y>
+						<width>221</width>
+						<height>61</height>
+					</rect>
+				</property>
+				<property name="font">
+					<font>
+						<family>Script MT Bold</family>
+						<pointsize>29</pointsize>
+						<bold>true</bold>
+					</font>
+				</property>
+				<property name="text">
+					<string>WatchfulEye</string>
+				</property>
+			</widget>
+			<widget class="QPushButton" name="startCameraBtn">
+				<property name="geometry">
+					<rect>
+						<x>90</x>
+						<y>30</y>
+						<width>121</width>
+						<height>41</height>
+					</rect>
+				</property>
+				<property name="font">
+					<font>
+						<family>Segoe Print</family>
+						<pointsize>14</pointsize>
+					</font>
+				</property>
+				<property name="toolTip">
+					<string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;start the camera&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+				</property>
+				<property name="text">
+					<string>start</string>
+				</property>
+			</widget>
+			<widget class="QLabel" name="label_display_frames">
+				<property name="geometry">
+					<rect>
+						<x>10</x>
+						<y>80</y>
+						<width>751</width>
+						<height>461</height>
+					</rect>
+				</property>
+				<property name="text">
+					<string/>
+				</property>
+			</widget>
+			<widget class="QPushButton" name="stopCameraBtn">
+				<property name="geometry">
+					<rect>
+						<x>270</x>
+						<y>30</y>
+						<width>91</width>
+						<height>41</height>
+					</rect>
+				</property>
+				<property name="font">
+					<font>
+						<family>Segoe Print</family>
+						<pointsize>12</pointsize>
+					</font>
+				</property>
+				<property name="toolTip">
+					<string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;stop the camera&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+				</property>
+				<property name="text">
+					<string>stop</string>
+				</property>
+			</widget>
+		</widget>
+		<widget class="QMenuBar" name="menubar">
+			<property name="geometry">
+				<rect>
+					<x>0</x>
+					<y>0</y>
+					<width>800</width>
+					<height>22</height>
+				</rect>
+			</property>
+		</widget>
+		<widget class="QStatusBar" name="statusbar"/>
+	</widget>
+	<resources/>
+	<connections/>
+</ui>
